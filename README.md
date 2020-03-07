@@ -8,7 +8,9 @@ For example,
 ```python
 import pandas as pd
 
-pd.read_csv("./pitches.csv")
+df = pd.read_csv("./pitches.csv")
+print(df.describe())
+
 
 
 
