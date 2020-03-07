@@ -11,7 +11,6 @@ import pandas as pd
 df = pd.read_csv("./pitches.csv")
 print(df.describe())
 
-
-
-
 ```
+
+You should check out main.py for more.
